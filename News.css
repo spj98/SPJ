@@ -539,7 +539,7 @@
   width: 79px;
   height: 79px;
   left: auto;
-  top: 437px;
+  top: 460px;
   right: 0;
 }.u-section-2 .u-sheet-1 {
   min-height: 1035px;
@@ -1089,7 +1089,6 @@
   height: 78px;
   width: 78px;
   background-image: none;
-  color: rgb(116, 133, 221) !important;
   margin: 0 auto;
 }
 
@@ -1152,7 +1151,6 @@
   height: 78px;
   width: 78px;
   background-image: none;
-  color: rgb(116, 133, 221) !important;
   margin: 0 auto;
 }
 
@@ -1227,6 +1225,10 @@
     padding-right: 0;
   }
 
+  .u-section-6 .u-icon-1 {
+    color: rgb(116, 133, 221) !important;
+  }
+
   .u-section-6 .u-text-2 {
     font-size: 1.5rem;
   }
@@ -1241,6 +1243,10 @@
 
   .u-section-6 .u-layout-cell-3 {
     min-height: 266px;
+  }
+
+  .u-section-6 .u-icon-3 {
+    color: rgb(116, 133, 221) !important;
   }
 
   .u-section-6 .u-text-4 {
