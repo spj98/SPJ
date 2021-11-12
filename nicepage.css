@@ -17307,7 +17307,7 @@ p {
 :not(.u-effect-fade) > .u-container-style.u-opacity,
 :not(.u-effect-fade) > .u-container-layout.u-opacity,
 :not(.u-effect-fade) > .u-group.u-opacity {
-  opacity: 1 !important;
+  opacity: 1;
 }
 [class*="u-custom-color-"].u-body,
 [class*="u-palette-"].u-body,
@@ -34536,13 +34536,14 @@ a.u-link.u-text-hover-grey-90:hover {
         }
         h1:not(.u-title)
         {
-        font-size: 3.75rem;
+        font-size: 4.5rem;
         line-height: 1.1;
         margin-top: 20px;
         margin-bottom: 20px;
-        font-weight: 700;
+        font-style: normal;
         list-icon-spacing: 0.3;
         list-icon-size: 0.8;
+        font-weight: 700;
         }
         h2:not(.u-subtitle)
         {
@@ -34718,7 +34719,7 @@ a.u-link.u-text-hover-grey-90:hover {
         .u-image:not(.u-shading) > .u-container-layout > h1:not(.u-title),
         h1:not(.u-title)
         {
-        color: #db545a;
+        color: #ffffff;
         }
         .u-overlap.u-overlap-transparent:not(.u-overlap-contrast) .u-header :not(.u-nav-item) > h3,
         .u-gradient > .u-container-layout > h3,
@@ -34783,9 +34784,9 @@ a.u-link.u-text-hover-grey-90:hover {
         /** color-rules **/
 
         /** alt-color-rules **/
-        .u-body-color h1:not(.u-title),.u-palette-1-base h1:not(.u-title),.u-palette-1-dark-3 h1:not(.u-title),.u-palette-1-dark-2 h1:not(.u-title),.u-palette-1-dark-1 h1:not(.u-title),.u-palette-1 h1:not(.u-title),.u-palette-1-light-1 h1:not(.u-title),.u-palette-2-base h1:not(.u-title),.u-palette-2-dark-3 h1:not(.u-title),.u-palette-2-dark-2 h1:not(.u-title),.u-palette-2-dark-1 h1:not(.u-title),.u-palette-2 h1:not(.u-title),.u-palette-2-light-1 h1:not(.u-title),.u-palette-3-dark-3 h1:not(.u-title),.u-palette-3-dark-2 h1:not(.u-title),.u-palette-3-dark-1 h1:not(.u-title),.u-palette-4-base h1:not(.u-title),.u-palette-4-dark-3 h1:not(.u-title),.u-palette-4-dark-2 h1:not(.u-title),.u-palette-4-dark-1 h1:not(.u-title),.u-palette-5-dark-3 h1:not(.u-title),.u-palette-5-dark-2 h1:not(.u-title),.u-palette-5-dark-1 h1:not(.u-title),.u-grey-40 h1:not(.u-title),.u-grey-30 h1:not(.u-title),.u-grey-90 h1:not(.u-title),.u-grey-80 h1:not(.u-title),.u-grey-75 h1:not(.u-title),.u-black h1:not(.u-title),.u-grey-70 h1:not(.u-title),.u-grey-60 h1:not(.u-title),.u-grey-50 h1:not(.u-title),.u-grey-dark-3 h1:not(.u-title),.u-grey-dark-2 h1:not(.u-title),.u-grey-dark-1 h1:not(.u-title),.u-grey h1:not(.u-title),.u-shading h1:not(.u-title),.u-overlap-contrast .u-header h1:not(.u-title):not(.u-nav-link):not(.u-btn)
+        .u-shading h1:not(.u-title),.u-overlap-contrast .u-header h1:not(.u-title):not(.u-nav-link):not(.u-btn)
         {
-        color: #f1b5b8;
+        color: #111111;
         }
         .u-body-color h3,.u-palette-1-base h3,.u-palette-1-dark-3 h3,.u-palette-1-dark-2 h3,.u-palette-1-dark-1 h3,.u-palette-1 h3,.u-palette-1-light-1 h3,.u-palette-2-base h3,.u-palette-2-dark-3 h3,.u-palette-2-dark-2 h3,.u-palette-2-dark-1 h3,.u-palette-2 h3,.u-palette-2-light-1 h3,.u-palette-3-dark-3 h3,.u-palette-3-dark-2 h3,.u-palette-3-dark-1 h3,.u-palette-4-base h3,.u-palette-4-dark-3 h3,.u-palette-4-dark-2 h3,.u-palette-4-dark-1 h3,.u-palette-5-dark-3 h3,.u-palette-5-dark-2 h3,.u-palette-5-dark-1 h3,.u-grey-40 h3,.u-grey-30 h3,.u-grey-90 h3,.u-grey-80 h3,.u-grey-75 h3,.u-black h3,.u-grey-70 h3,.u-grey-60 h3,.u-grey-50 h3,.u-grey-dark-3 h3,.u-grey-dark-2 h3,.u-grey-dark-1 h3,.u-grey h3,.u-shading h3,.u-overlap-contrast .u-header h3:not(.u-nav-link):not(.u-btn)
         {
@@ -34876,16 +34877,30 @@ a.u-link.u-text-hover-grey-90:hover {
   }
 }
 @media (max-width: 767px) {
+  .u-header .u-sheet-1 {
+    min-height: 132px;
+  }
+
+  .u-header .u-image-1 {
+    margin-top: 19px;
+  }
+
   .u-header .u-menu-1 {
-    margin-top: -65px;
+    margin-top: -72px;
     margin-bottom: 40px;
   }
 }
 @media (max-width: 575px) {
+  .u-header .u-image-1 {
+    height: 92px;
+    margin-top: 20px;
+    margin-left: 20px;
+  }
+
   .u-header .u-menu-1 {
     margin-top: -69px;
     margin-right: 20px;
-    margin-bottom: 35px;
+    margin-bottom: 37px;
   }
 }
 .u-footer .u-sheet-1 {
