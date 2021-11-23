@@ -5,4 +5,4 @@
   3. Astral by HTML5 UP html5up.net | @ajlkn
   4. Nicepage
 
-  **Thank you to each source. Let's support each others code.**
+  **Thank you to each source and all my teachers! Let's support each others code.**
