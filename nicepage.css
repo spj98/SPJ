@@ -35908,8 +35908,8 @@ a.u-link.u-text-hover-grey-90:hover {
 }
 
 .u-header .u-file-icon-1 {
-  font-size: calc(1em + 10px);
-  color: rgb(74, 85, 104) !important;
+  font-size: calc(1em + 4px);
+  color: rgb(255, 255, 255) !important;
   padding-left: 25px;
   padding-right: 25px;
 }
@@ -35942,11 +35942,6 @@ a.u-link.u-text-hover-grey-90:hover {
 
   .u-header .u-menu-1 {
     margin-top: 6px;
-  }
-
-  .u-header .u-file-icon-1 {
-    font-size: calc(1em + 4px);
-    padding: 2px 16px;
   }
 
   .u-header .u-image-1 {
@@ -35986,15 +35981,21 @@ a.u-link.u-text-hover-grey-90:hover {
   }
 
   .u-header .u-menu-1 {
-    margin-top: 11px;
+    margin-top: 17px;
     margin-left: 0;
+  }
+
+  .u-header .u-file-icon-1 {
+    font-size: calc(1em + 6px);
+    padding: 3px 12px;
   }
 
   .u-header .u-image-1 {
     width: 35px;
     height: 35px;
-    margin-top: -29px;
+    margin-top: -40px;
     margin-left: auto;
+    margin-bottom: 5px;
   }
 }
 .u-footer .u-sheet-1 {
