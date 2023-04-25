@@ -18,16 +18,14 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Your awesome title
-email: your-email@example.com
+title: Steven's 3D World and IT Services Emporium
+email: stevenpjohnso@outlook.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+Welcome to Steven's 3D World and IT Services Emporium, where you can find everything you need to create stunning 3D models and fix your pesky computer problems. Whether you want to design a realistic character, a fantasy landscape, or a futuristic spaceship, I have the skills and tools to make it happen. And if your PC is running slow, crashing, or infected with viruses, I can help you restore it to its optimal performance. No job is too big or too small for Steven's 3D World and IT Services Emporium. Contact me today and let me turn your dreams into reality.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: jekyllrb
-github_username:  jekyll
+# twitter_username: jekyllrb
+github_username:  stevenpjohnso
 
 # Build settings
 theme: minima
