@@ -1,12 +1,87 @@
-/* Light Mode */
 body {
-    background-color: #f9f9f9;
-    color: #222;
-  }
-  
-  /* Dark Mode */
-  body.dark-mode {
-    background-color: #222;
-    color: #f9f9f9;
-  }
-  
+  font-family: 'Comic Sans MS', cursive, sans-serif;
+  background-image: url("https://media4.giphy.com/media/22bAUMuLEE1mvSUr58/giphy.gif?cid=ecf05e47euhgxjzbqvazw7xj93gi4cecya7tt6noymezq342&ep=v1_gifs_search&rid=giphy.gif&ct=g");
+  background-size: cover;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #2f3e75;
+  color: #fff;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  margin-right: 20px;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 28px;
+  transition: all 0.2s ease-in-out;
+}
+
+nav a:hover {
+  color: #ffd700;
+  transform: rotate(180deg);
+}
+
+main {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 20px;
+  box-shadow: 0px 0px 10px 5px #444;
+}
+
+section {
+  margin-bottom: 40px;
+}
+
+section h2 {
+  margin-top: 0;
+  font-size: 48px;
+  color: #ffd700;
+  text-shadow: 2px 2px 4px #444;
+  transform: skewY(-10deg);
+  background-color: #2f3e75;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px 5px #444;
+}
+
+section p {
+  color: #fff;
+  font-size: 24px;
+  line-height: 1.5;
+  text-shadow: 2px 2px 4px #444;
+  transform: rotate(-5deg);
+}
+
+footer {
+  background-color: #2f3e75;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+  font-size: 24px;
+  text-shadow: 2px 2px 4px #444;
+  transform: skewY(-10deg);
+  border-top: 5px solid #ffd700;
+}
+
+footer p {
+  margin: 0;
+}
