@@ -2,69 +2,108 @@
 <html>
 <head>
     <title>Steven's 3D World and IT Services Emporium</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,700">
+    <link rel="stylesheet" href="style.css">
     <style>
-        body {
-            background-color: #000000;
-            font-family: 'Comic Sans MS', cursive, sans-serif;
-            color: #00ffff;
-            text-align: center;
+        /* Reset default styles */
+        * {
+            box-sizing: border-box;
             margin: 0;
             padding: 0;
         }
 
+        /* Global styles */
+        body {
+            font-family: 'Montserrat', sans-serif;
+            font-size: 16px;
+            line-height: 1.5;
+            color: #333333;
+            background-color: #f5f5f5;
+        }
+
+        /* Header styles */
+        header {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            background-color: #000000;
+            color: #ffffff;
+            text-align: center;
+            padding: 0 20px;
+        }
+
         h1 {
-            font-size: 72px;
-            margin-top: 100px;
+            font-size: 48px;
+            font-weight: 700;
             text-shadow: 3px 3px 3px #ff00ff;
+            margin-bottom: 30px;
         }
 
         p {
             font-size: 24px;
-            margin-top: 30px;
+            margin-bottom: 50px;
         }
 
+        /* Logo styles */
         .logo {
-            margin-top: 50px;
+            width: 200px;
+            height: 200px;
+            border-radius: 50%;
+            border: 5px solid #00ffff;
+            margin-bottom: 30px;
         }
 
-            .logo img {
-                width: 200px;
-                height: 200px;
-                border-radius: 50%;
-                border: 5px solid #00ffff;
-            }
-
+        /* CTA button styles */
         .cta {
-            margin-top: 50px;
-            margin-bottom: 20px;
+            display: inline-block;
+            background-color: #00ffff;
+            color: #ff00ff;
+            font-size: 24px;
+            text-decoration: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            margin-top: 30px;
+            transition: background-color 0.3s ease, color 0.3s ease;
         }
 
-            .cta a {
-                display: inline-block;
-                background-color: #00ffff;
-                color: #ff00ff;
+        .cta:hover {
+            background-color: #ff00ff;
+            color: #00ffff;
+        }
+
+        /* Responsive styles */
+        @media (max-width: 768px) {
+            h1 {
                 font-size: 36px;
-                text-decoration: none;
-                padding: 20px 40px;
-                border-radius: 10px;
-                margin-top: 20px;
-                transition: background-color 0.3s ease, color 0.3s ease;
             }
 
-                .cta a:hover {
-                    background-color: #ff00ff;
-                    color: #00ffff;
-                }
+            p {
+                font-size: 18px;
+            }
+
+            .logo {
+                width: 150px;
+                height: 150px;
+            }
+
+            .cta {
+                font-size: 18px;
+                padding: 8px 16px;
+            }
+        }
     </style>
 </head>
 <body>
-    <h1>Welcome to Steven's 3D World and IT Services Emporium.</h1>
-    <p>Where imagination meets reality</p>
-    <div class="gif">
-        <iframe src="https://giphy.com/embed/x45I8CY1Vs45G" width="480" height="270" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/80s-retro-1980s-x45I8CY1Vs45G">via GIPHY</a></p>
-    </div>
-    <div class="cta">
-        <a href="mailto:stevenpjohnso@outlook.com">Get a quote now!</a>
-    </div>
+    <header>
+        <img src="path/to/logo.png" alt="Logo" class="logo">
+        <h1>Welcome to Steven's 3D World and IT Services Emporium.</h1>
+        <p>Where imagination meets reality</p>
+        <a href="mailto:stevenpjohnso@outlook.com" class="cta">Get a quote now!</a>
+    </header>
+    <button onclick="toggleDarkMode()">Toggle Dark Mode</button>
+<script src="script.js"></script>
 </body>
 </html>
