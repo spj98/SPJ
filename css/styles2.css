@@ -1,8 +1,8 @@
 @charset "UTF-8";
 /*!
-* Start Bootstrap - Scrolling Nav v5.0.6 (https://startbootstrap.com/template/scrolling-nav)
+* Start Bootstrap - The Big Picture v5.0.6 (https://startbootstrap.com/template/the-big-picture)
 * Copyright 2013-2023 Start Bootstrap
-* Licensed under MIT (https://github.com/StartBootstrap/startbootstrap-scrolling-nav/blob/master/LICENSE)
+* Licensed under MIT (https://github.com/StartBootstrap/startbootstrap-the-big-picture/blob/master/LICENSE)
 */
 /*!
  * Bootstrap  v5.2.3 (https://getbootstrap.com/)
@@ -10824,16 +10824,7 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
-html {
-  scroll-padding-top: 3.5rem;
-}
-
-header {
-  padding-top: 9.5rem;
-  padding-bottom: 6rem;
-}
-
-section {
-  padding-top: 9rem;
-  padding-bottom: 9rem;
+body {
+  background: url("https://dummyimage.com/1920x1080/dee2e6/6c757d.jpg") no-repeat center center fixed;
+  background-size: cover;
 }
