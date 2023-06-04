@@ -10824,7 +10824,17 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
+
+.background-iframe {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+
 body {
-  background: url("https://dummyimage.com/1920x1080/dee2e6/6c757d.jpg") no-repeat center center fixed;
-  background-size: cover;
+  margin: 0;
+  padding: 0;
 }
