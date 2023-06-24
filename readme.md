@@ -1,1 +1,1 @@
-# [Portfolio](https://stevenpjohnso.github.io/SPJ/)
+# [Portfolio](https://stevenpjohnso.github.io/SPJ/index.html)
