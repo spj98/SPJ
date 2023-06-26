@@ -1,1 +1,1 @@
-# [CLICK ME](https://stevenpjohnso.github.io/SPJ/index.html)
+# [CLICK ME TO BEGIN QUEST](https://stevenpjohnso.github.io/SPJ/index.html)
