@@ -9,6 +9,7 @@
 	font-family: Verdana, Geneva, Tahoma, sans-serif;
 	font-size: .8em;
 }
+
 /* ======================================= CONTAINERS ======================================= */
 #wrapper {
 	width: 980px;
@@ -17,6 +18,7 @@
 	margin: 0px auto 0px auto;
 	overflow: hidden;
 }
+
 /* ======================================= BANNER ======================================= */
 #head {
 	background-position: center top;
@@ -30,6 +32,7 @@
 	background-image: url('../theme/banner.jpg');
 	background-repeat: no-repeat;
 }
+
 #logo {
 	padding: 0px;
 	margin: 0px;
@@ -38,7 +41,19 @@
 	position: relative;
 	overflow: hidden;
 	float: left;
+	animation: rotateLogo 6s linear infinite;
 }
+
+@keyframes rotateLogo {
+	0% {
+		transform: rotateY(0deg);
+	}
+
+	100% {
+		transform: rotateY(360deg);
+	}
+}
+
 #head-mid {
 	padding: 0px;
 	margin: 20px 0px 0px 20px;
@@ -47,6 +62,7 @@
 	overflow: hidden;
 	float: left;
 }
+
 .header-line1 {
 	padding: 4px;
 	margin: 0px;
@@ -56,6 +72,7 @@
 	font-weight: bold;
 	color: #F0F0F0;
 }
+
 .header-line2 {
 	padding: 4px;
 	margin: 0px;
@@ -65,6 +82,7 @@
 	font-weight: bold;
 	color: #A4B9BE;
 }
+
 .header-line3 {
 	padding: 4px;
 	margin: 0px;
@@ -85,6 +103,7 @@
 	float: right;
 	list-style-type: none;
 }
+
 #plus1 {
 	padding: 0px;
 	margin: 10px auto 0px auto;
@@ -92,6 +111,7 @@
 	height: 60px;
 	position: relative;
 }
+
 /* ======================================= ALBUM ======================================= */
 #slideshow-top {
 	width: 980px;
@@ -102,6 +122,7 @@
 	margin: 0px;
 	z-index: 1;
 }
+
 #spacer {
 	margin: 0px;
 	padding: 0px;
@@ -111,6 +132,7 @@
 	z-index: 1;
 	overflow: hidden;
 }
+
 /* ======================================= BODY ======================================= */
 #main {
 	margin: 0px;
@@ -120,6 +142,7 @@
 	overflow: hidden;
 	background-color: #43515E;
 }
+
 #foot-fillin {
 	background-color: #171C20;
 	padding: 0px;
@@ -127,6 +150,7 @@
 	width: 100%;
 	height: 100%;
 }
+
 /* ======================================= COLUMNS ======================================= */
 #col-L {
 	margin: 0px;
@@ -136,6 +160,7 @@
 	overflow: hidden;
 	float: left;
 }
+
 #col-R {
 	padding: 0px;
 	margin: 0px;
@@ -144,6 +169,7 @@
 	float: right;
 	overflow: hidden;
 }
+
 #col-ft-l1 {
 	padding: 0px;
 	margin: 8px 0px 0px 0px;
@@ -153,6 +179,7 @@
 	overflow: hidden;
 	list-style-type: none;
 }
+
 #col-ft-l2 {
 	padding: 0px;
 	margin: 8px 0px 0px 20px;
@@ -162,6 +189,7 @@
 	overflow: hidden;
 	list-style-type: none;
 }
+
 #col-ft-r1 {
 	background-position: center top;
 	padding: 0px;
@@ -179,10 +207,12 @@
 	background-repeat: no-repeat;
 	background-color: #171C20;
 }
+
 .col-ft-r1-p {
 	margin: 0px;
 	padding: 4px;
 }
+
 #cnt-col1 {
 	float: left;
 	overflow: hidden;
@@ -192,6 +222,7 @@
 	margin: 0px;
 	display: block;
 }
+
 #cnt-col2 {
 	float: left;
 	overflow: hidden;
@@ -201,6 +232,7 @@
 	margin: 0px 3px 0px 3px;
 	display: block;
 }
+
 #cnt-col3 {
 	float: right;
 	overflow: hidden;
@@ -209,6 +241,7 @@
 	padding: 0px;
 	margin: 0px;
 }
+
 /* ======================================= FOOTER ======================================= */
 #footer {
 	background-image: url('../theme/footer.jpg');
@@ -222,6 +255,7 @@
 	overflow: hidden;
 	list-style-type: none;
 }
+
 #foot-info {
 	height: 215px;
 	width: 980px;
@@ -231,6 +265,7 @@
 	margin: 25px auto 0px auto;
 	list-style-type: none;
 }
+
 .ft-title {
 	font-size: 120%;
 	padding: 0px;
@@ -243,6 +278,7 @@
 	color: #A4B9BE;
 	text-decoration: none;
 }
+
 .ft-links {
 	padding: 0px;
 	margin: 0px auto;
@@ -251,14 +287,16 @@
 	overflow: hidden;
 	list-style-type: none;
 }
+
 .ft-links ul {
-	padding : 0px;
-	margin : 0px;
-	list-style-type : none;
+	padding: 0px;
+	margin: 0px;
+	list-style-type: none;
 }
+
 .ft-links ul li {
-	padding : 0px;
-	margin : 0px;
+	padding: 0px;
+	margin: 0px;
 	list-style-type: none;
 	width: 200px;
 	height: 24px;
@@ -267,35 +305,39 @@
 	text-indent: 20px;
 	line-height: 180%;
 }
+
 .ft-links ul li a {
-	background-position : 0px 0px;
+	background-position: 0px 0px;
 	margin: 0px;
-	display : block;
-	padding : 0px;
+	display: block;
+	padding: 0px;
 	color: #A4B9BE;
-	text-decoration : none;
+	text-decoration: none;
 	font-size: 95%;
-	position : relative;
-	background-repeat : no-repeat;
+	position: relative;
+	background-repeat: no-repeat;
 	background-image: url('../theme/ft-nav-link.jpg');
 	width: 200px;
 	height: 24px;
 	list-style-type: none;
 	font-weight: normal;
 }
+
 .ft-links li a.current {
-	background-position : left top;
-	color : #A4B9BE;
+	background-position: left top;
+	color: #A4B9BE;
 	list-style-type: none;
 }
+
 .ft-links li a:hover {
-	background-position : -200px 0px;
+	background-position: -200px 0px;
 	color: #D8E0E2;
 	background-image: url('../theme/ft-nav-link.jpg');
-	background-repeat : no-repeat;
+	background-repeat: no-repeat;
 	list-style-type: none;
 	font-weight: normal;
 }
+
 /* ======================================= NAV-HORIZONTAL ======================================= */
 #nav-H {
 	margin: 0px;
@@ -305,6 +347,7 @@
 	position: relative;
 	z-index: 2;
 }
+
 #nav-H-Box {
 	margin: 1px auto 0px auto;
 	padding: 0px;
@@ -315,6 +358,7 @@
 	background-repeat: no-repeat;
 	background-position: center top;
 }
+
 #butn-block {
 	padding: 0px;
 	margin: 0px auto 0px auto;
@@ -324,11 +368,13 @@
 	overflow: hidden;
 	list-style-type: none;
 }
+
 #butn-block ul {
 	padding: 0px;
 	margin: 0px;
 	list-style-type: none;
 }
+
 #butn-block ul li {
 	padding: 0px;
 	margin: 0px;
@@ -341,14 +387,17 @@
 	line-height: 250%;
 	font-size: 100%;
 }
+
 #butn-block ul li a {
 	color: #E1EBF4;
 	text-decoration: none;
 	font-weight: bold;
 }
+
 #butn-block ul li a:hover {
 	color: #FFFFFF;
 }
+
 .Butn1 {
 	padding: 0px;
 	margin: 0px;
@@ -359,9 +408,11 @@
 	overflow: hidden;
 	position: relative;
 }
+
 .Butn1:hover {
 	background: url('../theme/h-butns.jpg') no-repeat 0px -34px;
 }
+
 /* ======================================= NAV-VERTICAL ======================================= */
 .nav-box {
 	padding: 0px;
@@ -370,6 +421,7 @@
 	position: relative;
 	overflow: hidden;
 }
+
 .nav-head {
 	background-image: url('../theme/nav-top.jpg');
 	background-repeat: no-repeat;
@@ -381,6 +433,7 @@
 	position: relative;
 	overflow: hidden;
 }
+
 .nav-filler {
 	background-image: url('../theme/nav-fill.jpg');
 	background-repeat: repeat-y;
@@ -391,6 +444,7 @@
 	position: relative;
 	overflow: hidden;
 }
+
 .nav-info {
 	font-size: 100%;
 	font-weight: normal;
@@ -402,6 +456,7 @@
 	position: relative;
 	overflow: hidden;
 }
+
 .nav-info-C {
 	font-size: 100%;
 	font-weight: normal;
@@ -413,6 +468,7 @@
 	position: relative;
 	overflow: hidden;
 }
+
 .nav-ft {
 	padding: 0px;
 	margin: 0px;
@@ -424,6 +480,7 @@
 	position: relative;
 	overflow: hidden;
 }
+
 .nav-links {
 	padding: 0px;
 	margin: 0px auto;
@@ -432,14 +489,16 @@
 	overflow: hidden;
 	list-style-type: none;
 }
+
 .nav-links ul {
-	padding : 0px;
-	margin : 0px;
-	list-style-type : none;
+	padding: 0px;
+	margin: 0px;
+	list-style-type: none;
 }
+
 .nav-links ul li {
-	padding : 0px;
-	margin : 0px;
+	padding: 0px;
+	margin: 0px;
 	list-style-type: none;
 	width: 204px;
 	height: 26px;
@@ -448,52 +507,59 @@
 	text-indent: 5px;
 	line-height: 170%;
 }
+
 .nav-links ul li a {
-	background-position : 0px 0px;
+	background-position: 0px 0px;
 	margin: 0px;
-	display : block;
-	padding : 0px;
+	display: block;
+	padding: 0px;
 	color: #22282F;
-	text-decoration : none;
+	text-decoration: none;
 	font-size: 100%;
-	position : relative;
-	background-repeat : no-repeat;
+	position: relative;
+	background-repeat: no-repeat;
 	background-image: url('../theme/v-nav-butn.png');
 	width: 204px;
 	height: 26px;
 	list-style-type: none;
 	font-weight: normal;
 }
+
 .nav-links li a.current {
-	background-position : left top;
-	color : #22282F;
+	background-position: left top;
+	color: #22282F;
 	list-style-type: none;
 }
+
 .nav-links li a:hover {
-	background-position : -204px 0px;
+	background-position: -204px 0px;
 	color: #1F1F1F;
 	background-image: url('../theme/v-nav-butn.png');
-	background-repeat : no-repeat;
+	background-repeat: no-repeat;
 	list-style-type: none;
 	font-weight: normal;
 	text-indent: 16px;
 }
+
 /* ======================================= FLOATS AND CLEARS ======================================= */
 .clear-L {
 	clear: left;
 	margin: 0px;
 	padding: 0px;
 }
+
 .clear-R {
 	clear: right;
 	margin: 0px;
 	padding: 0px;
 }
+
 .clear-B {
 	clear: both;
 	margin: 0px;
 	padding: 0px;
 }
+
 .float-R {
 	padding: 0px;
 	margin: 0px 0px 4px 4px;
@@ -501,6 +567,7 @@
 	overflow: hidden;
 	position: relative;
 }
+
 .float-L {
 	padding: 0px;
 	margin: 0px 4px 4px 0px;
@@ -508,6 +575,7 @@
 	overflow: hidden;
 	position: relative;
 }
+
 /* ======================================= CONTENT ======================================= */
 .cnt-box {
 	padding: 0px;
@@ -516,6 +584,7 @@
 	position: relative;
 	overflow: hidden;
 }
+
 .cnt-head {
 	background-image: url('../theme/cnt-top.jpg');
 	background-repeat: no-repeat;
@@ -527,6 +596,7 @@
 	position: relative;
 	overflow: hidden;
 }
+
 .cnt-filler {
 	background-image: url('../theme/cnt-filler.jpg');
 	background-repeat: repeat-y;
@@ -537,6 +607,7 @@
 	position: relative;
 	overflow: hidden;
 }
+
 .cnt-info {
 	font-size: 100%;
 	font-weight: normal;
@@ -548,6 +619,7 @@
 	position: relative;
 	overflow: hidden;
 }
+
 .cnt-info-quote {
 	background-position: left top;
 	font-size: 100%;
@@ -562,6 +634,7 @@
 	background-image: url('../theme/quote.jpg');
 	background-repeat: no-repeat;
 }
+
 .cnt-ft {
 	padding: 0px;
 	margin: 0px;
@@ -573,6 +646,7 @@
 	position: relative;
 	overflow: hidden;
 }
+
 .cnt-sub-topic {
 	width: 700px;
 	height: 50px;
@@ -590,6 +664,7 @@
 	text-align: left;
 	text-indent: 30px;
 }
+
 .cnt-col-info {
 	padding: 0px;
 	margin: 2px auto 0px auto;
@@ -598,6 +673,7 @@
 	overflow: hidden;
 	list-style-type: none;
 }
+
 .cnt-ST {
 	height: 42px;
 	position: relative;
@@ -610,6 +686,7 @@
 	line-height: 280%;
 	text-align: left;
 }
+
 .cnt-ST-L {
 	background-image: url('../theme/cnt-sub-L.jpg');
 	background-repeat: no-repeat;
@@ -622,6 +699,7 @@
 	float: left;
 	list-style-type: none;
 }
+
 .cnt-ST-C {
 	background-image: url('../theme/cnt-sub-C.jpg');
 	background-repeat: repeat-x;
@@ -638,6 +716,7 @@
 	text-align: left;
 	text-indent: 5px;
 }
+
 .cnt-ST-R {
 	background-image: url('../theme/cnt-sub-R.jpg');
 	background-repeat: no-repeat;
@@ -650,6 +729,7 @@
 	overflow: hidden;
 	float: left;
 }
+
 /* ======================================= SLIDESHOW ======================================= */
 #mygallery {
 	padding: 0px;
@@ -660,6 +740,7 @@
 	text-decoration: none;
 	text-align: left;
 }
+
 .contenthol {
 	padding: 0px;
 	margin: 0px;
@@ -670,6 +751,7 @@
 	left: 0px;
 	position: absolute;
 }
+
 .projecttitle {
 	margin: 10px 0px 0px 25px;
 	padding: 0px;
@@ -679,6 +761,7 @@
 	font-weight: bold;
 	height: 20px;
 }
+
 .projectdesc {
 	margin: 0px 0px 0px 25px;
 	width: 420px;
@@ -687,6 +770,7 @@
 	padding: 0px;
 	height: 150px;
 }
+
 .preview {
 	margin: 0px 25px 0px 0px;
 	padding: 0px;
@@ -697,16 +781,19 @@
 	height: 180px;
 	color: #000000;
 }
+
 #next {
 	position: absolute;
 	bottom: 60px;
 	right: 10px;
 }
+
 .con {
 	height: 195px;
 	width: 888px;
 	overflow: hidden;
 }
+
 /* ======================================= TABLES ======================================= */
 /* ======================================= ELEMENTS ======================================= */
 #top-page-wrapper {
@@ -717,6 +804,7 @@
 	padding: 0px;
 	margin: 0px auto 0px auto;
 }
+
 #top-page {
 	margin: 0px;
 	padding: 0px;
@@ -726,10 +814,12 @@
 	float: right;
 	overflow: hidden;
 }
+
 /* ======================================= SITE IMAGES ======================================= */
 img {
 	border: 0px;
 }
+
 /* ======================================= SOCIAL MEDIA ======================================= */
 .social-networks {
 	margin: 0px;
@@ -740,11 +830,13 @@ img {
 	overflow: hidden;
 	list-style-type: none;
 }
+
 .social-networks ul {
 	padding: 0px;
 	margin: 0px;
 	list-style-type: none;
 }
+
 .social-networks ul li {
 	padding: 0px;
 	margin: 0px 2px 0px 2px;
@@ -754,6 +846,7 @@ img {
 	overflow: hidden;
 	float: left;
 }
+
 .FBlink {
 	padding: 0px;
 	margin: 0px;
@@ -764,9 +857,11 @@ img {
 	overflow: hidden;
 	position: relative;
 }
+
 .FBlink:hover {
 	background: url('../images/facebook-icon.jpg') no-repeat 0px -35px;
 }
+
 .TWlink {
 	padding: 0px;
 	margin: 0px;
@@ -777,9 +872,11 @@ img {
 	overflow: hidden;
 	position: relative;
 }
+
 .TWlink:hover {
 	background: url('../images/twitter-icon.jpg') no-repeat 0px -35px;
 }
+
 .LIlink {
 	padding: 0px;
 	margin: 0px;
@@ -790,9 +887,11 @@ img {
 	overflow: hidden;
 	position: relative;
 }
+
 .LIlink:hover {
 	background: url('../images/linkedin-icon.jpg') no-repeat 0px -35px;
 }
+
 /* ======================================= TAGS ======================================= */
 h1 {
 	font-size: 112%;
@@ -809,6 +908,7 @@ h1 {
 	list-style-type: none;
 	line-height: 100%;
 }
+
 h2 {
 	font-size: 115%;
 	font-weight: bold;
@@ -824,6 +924,7 @@ h2 {
 	list-style-type: none;
 	line-height: 100%;
 }
+
 h3 {
 	font-size: 115%;
 	font-weight: bold;
@@ -839,6 +940,7 @@ h3 {
 	list-style-type: none;
 	line-height: 100%;
 }
+
 h4 {
 	font-size: 115%;
 	font-weight: bold;
@@ -854,6 +956,7 @@ h4 {
 	list-style-type: none;
 	line-height: 100%;
 }
+
 h5 {
 	font-size: 115%;
 	font-weight: bold;
@@ -869,6 +972,7 @@ h5 {
 	list-style-type: none;
 	line-height: 100%;
 }
+
 h6 {
 	font-size: 115%;
 	font-weight: bold;
@@ -884,48 +988,57 @@ h6 {
 	list-style-type: none;
 	line-height: 100%;
 }
+
 /* ======================================= LINKS ======================================= */
 a.LINKpg:link {
 	color: #13171C;
-	text-decoration : none;
+	text-decoration: none;
 	font-weight: bold;
 }
+
 a.LINKpg:visited {
-	color : #13171C;
-	text-decoration : none;
+	color: #13171C;
+	text-decoration: none;
 	font-weight: bold;
 }
+
 a.LINKpg:active {
-	color : #13171C;
-	text-decoration : none;
+	color: #13171C;
+	text-decoration: none;
 	font-weight: bold;
 }
+
 a.LINKpg:hover {
 	color: #0000FF;
-	text-decoration : none;
+	text-decoration: none;
 	font-weight: bold;
 }
+
 a.LINKpg-lvl2:link {
 	color: #333E4A;
-	text-decoration : none;
+	text-decoration: none;
 	font-weight: normal;
 }
+
 a.LINKpg-lvl2:visited {
-	color : #333E4A;
-	text-decoration : none;
+	color: #333E4A;
+	text-decoration: none;
 	font-weight: normal;
 }
+
 a.LINKpg-lvl2:active {
-	color : #333E4A;
-	text-decoration : none;
+	color: #333E4A;
+	text-decoration: none;
 	font-weight: normal;
 }
+
 a.LINKpg-lvl2:hover {
 	color: #0000FF;
-	text-decoration : none;
+	text-decoration: none;
 	font-weight: normal;
 	font-style: italic;
 }
+
 /* ======================================= SITEMAP ======================================= */
 .sitemap {
 	padding: 0px;
@@ -934,10 +1047,12 @@ a.LINKpg-lvl2:hover {
 	position: relative;
 	overflow: hidden;
 }
+
 .sitemap ul {
 	padding: 0px;
 	margin: 0px;
 }
+
 /* ======================================= CUSTOMER QUOTE ======================================= */
 .quote-box {
 	padding: 0px;
@@ -946,6 +1061,7 @@ a.LINKpg-lvl2:hover {
 	position: relative;
 	overflow: hidden;
 }
+
 .quote-top {
 	padding: 0px;
 	margin: 0px;
@@ -957,6 +1073,7 @@ a.LINKpg-lvl2:hover {
 	position: relative;
 	overflow: hidden;
 }
+
 .quote-mid {
 	background-image: url('../theme/quote-mid.jpg');
 	background-repeat: repeat-y;
@@ -967,6 +1084,7 @@ a.LINKpg-lvl2:hover {
 	position: relative;
 	overflow: hidden;
 }
+
 .quote-btm-R {
 	background-image: url('../theme/quote-btm.jpg');
 	background-repeat: no-repeat;
@@ -978,6 +1096,7 @@ a.LINKpg-lvl2:hover {
 	position: relative;
 	overflow: hidden;
 }
+
 .quote-btm-L {
 	background-image: url('../theme/quote-btm-2.jpg');
 	background-repeat: no-repeat;
@@ -989,6 +1108,7 @@ a.LINKpg-lvl2:hover {
 	position: relative;
 	overflow: hidden;
 }
+
 .quote-info {
 	padding: 0px;
 	margin: 0px auto 0px auto;
@@ -1003,6 +1123,7 @@ a.LINKpg-lvl2:hover {
 	text-decoration: none;
 	text-align: left;
 }
+
 .quote-img {
 	background-image: url('../theme/quote.gif');
 	background-repeat: no-repeat;
@@ -1015,6 +1136,7 @@ a.LINKpg-lvl2:hover {
 	overflow: hidden;
 	float: left;
 }
+
 .quote-img-R {
 	background-image: url('../theme/quote-right.gif');
 	background-repeat: no-repeat;
@@ -1027,6 +1149,7 @@ a.LINKpg-lvl2:hover {
 	overflow: hidden;
 	float: right;
 }
+
 .quote-name {
 	padding: 0px;
 	margin: 4px auto 0px auto;
@@ -1041,6 +1164,7 @@ a.LINKpg-lvl2:hover {
 	text-decoration: none;
 	text-align: right;
 }
+
 .quote-site {
 	padding: 0px;
 	margin: 0px auto 0px auto;
