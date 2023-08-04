@@ -1199,11 +1199,11 @@ General Styles - Owlcarousel
   text-indent: -9999em;
   font-size: 10px;
   z-index: 9999;
-  -webkit-animation: load 0.8s infinite linear;
-  -moz-animation: load 0.8s infinite linear;
-  ms-animation: load 0.8s infinite linear;
-  o-animation: load 0.8s infinite linear;
-  animation: load 0.8s infinite linear;
+  -webkit-animation: load 0.5s infinite linear;
+  -moz-animation: load 0.5s infinite linear;
+  ms-animation: load 0.5s infinite linear;
+  o-animation: load 0.5s infinite linear;
+  animation: load 0.5s infinite linear;
 }
 
 .loader,
@@ -1552,7 +1552,7 @@ Google map
 .alt-features-icon {
   line-height: 1.2;
   font-size: 42px;
-  color: ##FFF;
+  color: #FFF;
 }
 
 .features-title,
@@ -1561,7 +1561,7 @@ Google map
   letter-spacing: 2px;
   font-weight: 400;
   font-size: 14px;
-  color: ##FFF;
+  color: #FFF;
   margin: 16px 0 15px;
 }
 

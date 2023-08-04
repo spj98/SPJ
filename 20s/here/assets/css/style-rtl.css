@@ -1199,11 +1199,11 @@ General Styles - Owlcarousel
   text-indent: -9999em;
   font-size: 10px;
   z-index: 9999;
-  -webkit-animation: load 0.8s infinite linear;
-  -moz-animation: load 0.8s infinite linear;
-  ms-animation: load 0.8s infinite linear;
-  o-animation: load 0.8s infinite linear;
-  animation: load 0.8s infinite linear;
+  -webkit-animation: load 0.5s infinite linear;
+  -moz-animation: load 0.5s infinite linear;
+  ms-animation: load 0.5s infinite linear;
+  o-animation: load 0.5s infinite linear;
+  animation: load 0.5s infinite linear;
 }
 
 .loader,
@@ -1948,9 +1948,9 @@ Google map
 }
 
 .work-item:hover .work-image > img {
-  -webkit-transform: scale(1.1) rotate(-2deg);
-  -ms-transform: scale(1.1) rotate(-2deg);
-  transform: scale(1.1) rotate(-2deg);
+  -webkit-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  transform: scale(1.1);
 }
 
 .work-item:hover .work-caption {

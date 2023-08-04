@@ -37,44 +37,48 @@
             text-align: center;
             background-color: lightgrey;
         }
-
-        .marquee {
-            width: 100%;
-            height: 3rem;
-            overflow: hidden;
-            position: relative;
+        .center-links {
+            text-align: center;
+            padding: 0;
+            margin: 0;
         }
-
-        .marquee span {
-            display: inline-block;
-            position: absolute;
-            white-space: nowrap;
-            animation: marquee 10s linear infinite;
+        ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
         }
-
-        @keyframes marquee {
-            0% {
-                transform: translateX(100%);
+            .marquee {
+                width: 100%;
+                height: 3rem;
+                overflow: hidden;
+                position: relative;
             }
-
-            100% {
-                transform: translateX(-100%);
+            .marquee span {
+                display: inline-block;
+                position: absolute;
+                white-space: nowrap;
+                animation: marquee 10s linear infinite;
             }
-
-            h1,
-            h2,
-            h3,
-            p,
-            ul {
-                margin: 10px 0;
-                padding: 0;
+            @keyframes marquee {
+                0% {
+                    transform: translateX(100%);
+                }
+                100% {
+                    transform: translateX(-100%);
+                }
+                h1,
+                h2,
+                h3,
+                p,
+                ul {
+                    margin: 10px 0;
+                    padding: 0;
+                }
+                img {
+                    max-width: 100%;
+                    height: auto;
+                }
             }
-
-            img {
-                max-width: 100%;
-                height: auto;
-            }
-        }
     </style>
     <div class="marquee">
         <span>
@@ -91,7 +95,7 @@
     </p>
     <h3>Watch out for any wormholes! (they suck)</h3>
     <h2>Navigation</h2>
-    <ul>
+    <ul class="center-links">
         <h3><a href="../00s/pg3.html">Time Travel 10 years to Web 2.0 (2000s)</a></h3>
         <h3><a href="#">Skip to now</a></h3>
         <h3><a href="#">Try again. Click this link.</a></h3>
