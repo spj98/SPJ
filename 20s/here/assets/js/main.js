@@ -1,4 +1,4 @@
-console.log('%c Proudly Crafted with ZiOn.', 'background: #222; color: #bada55');
+// console.log('%c Proudly Crafted with ZiOn.', 'background: #222; color: #bada55');
 
 /* ---------------------------------------------- /*
  * Preloader
@@ -846,28 +846,28 @@ console.log('%c Proudly Crafted with ZiOn.', 'background: #222; color: #bada55')
         }
 
     });
+
+    const swiper = new Swiper('.swiper', {
+        // Optional parameters
+        direction: 'horizontal',
+        loop: true,
+
+        // If we need pagination
+        // pagination: {
+        //     el: '.swiper-pagination',
+        // },
+
+        // Navigation arrows
+        navigation: {
+            nextEl: '.swiper-button-next',
+            prevEl: '.swiper-button-prev',
+        },
+
+        // And if we need scrollbar
+        scrollbar: {
+            el: '.swiper-scrollbar',
+        },
+    });
+
 })(jQuery);
-
-const swiper = new Swiper('.swiper', {
-    // Optional parameters
-    direction: 'horizontal',
-    loop: true,
-
-    // If we need pagination
-    // pagination: {
-    //     el: '.swiper-pagination',
-    // },
-
-    // Navigation arrows
-    navigation: {
-        nextEl: '.swiper-button-next',
-        prevEl: '.swiper-button-prev',
-    },
-
-    // And if we need scrollbar
-    scrollbar: {
-        el: '.swiper-scrollbar',
-    },
-});
-
 
