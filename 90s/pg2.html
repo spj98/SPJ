@@ -37,48 +37,56 @@
             text-align: center;
             background-color: lightgrey;
         }
+
         .center-links {
             text-align: center;
             padding: 0;
             margin: 0;
         }
+
         ul {
             list-style: none;
             padding: 0;
             margin: 0;
         }
-            .marquee {
-                width: 100%;
-                height: 3rem;
-                overflow: hidden;
-                position: relative;
+
+        .marquee {
+            width: 100%;
+            height: 3rem;
+            overflow: hidden;
+            position: relative;
+        }
+
+        .marquee span {
+            display: inline-block;
+            position: absolute;
+            white-space: nowrap;
+            animation: marquee 10s linear infinite;
+        }
+
+        @keyframes marquee {
+            0% {
+                transform: translateX(100%);
             }
-            .marquee span {
-                display: inline-block;
-                position: absolute;
-                white-space: nowrap;
-                animation: marquee 10s linear infinite;
+
+            100% {
+                transform: translateX(-100%);
             }
-            @keyframes marquee {
-                0% {
-                    transform: translateX(100%);
-                }
-                100% {
-                    transform: translateX(-100%);
-                }
-                h1,
-                h2,
-                h3,
-                p,
-                ul {
-                    margin: 10px 0;
-                    padding: 0;
-                }
-                img {
-                    max-width: 100%;
-                    height: auto;
-                }
+
+            h1,
+            h2,
+            h3,
+            p,
+            ul {
+                margin: 10px 0;
+                padding: 0;
             }
+
+            img {
+                max-width: 100%;
+                height: auto;
+            }
+        }
     </style>
     <div class="marquee">
         <span>
@@ -108,7 +116,7 @@
     </p>
     <h2>Still A Steven Johnson Production</h2>
     <p>
-        &copy; 2023 My Internet Portfolio. Located on the Internet. All rights reserved.
+        &copy; 2024 My Internet Portfolio. Located on the Internet. All rights reserved.
     </p>
 </body>
 
