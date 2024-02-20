@@ -1,369 +1,587 @@
 <!DOCTYPE html>
 <html lang="en-US" dir="ltr">
+  <head>
+    <!-- Google Tag Manager -->
+    <script>
+      (function (w, d, s, l, i) {
+        w[l] = w[l] || [];
+        w[l].push({
+          "gtm.start": new Date().getTime(),
+          event: "gtm.js",
+        });
+        var f = d.getElementsByTagName(s)[0],
+          j = d.createElement(s),
+          dl = l != "dataLayer" ? "&l=" + l : "";
+        j.async = true;
+        j.src = "https://www.googletagmanager.com/gtm.js?id=" + i + dl;
+        f.parentNode.insertBefore(j, f);
+      })(window, document, "script", "dataLayer", "GTM-5ZSK8SM");
+    </script>
+    <!-- End Google Tag Manager -->
+    <!-- Google tag (gtag.js) -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-3CRYPEE5CH"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
 
-<head>
-  <!-- Google Tag Manager -->
-  <script>(function (w, d, s, l, i) {
-      w[l] = w[l] || []; w[l].push({
-        'gtm.start':
-          new Date().getTime(), event: 'gtm.js'
-      }); var f = d.getElementsByTagName(s)[0],
-        j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
-          'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
-    })(window, document, 'script', 'dataLayer', 'GTM-5ZSK8SM');</script>
-  <!-- End Google Tag Manager -->
-  <!-- Google tag (gtag.js) -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-3CRYPEE5CH"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag() { dataLayer.push(arguments); }
-    gtag('js', new Date());
+      gtag("config", "G-3CRYPEE5CH");
+    </script>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"
+    />
 
-    gtag('config', 'G-3CRYPEE5CH');
-  </script>
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
-
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <!--  
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!--  
     Document Title
     =============================================
     -->
-  <title>SPJ > SFCD</title>
-  <!--  
+    <title>SPJ > SFCD</title>
+    <!--  
     Favicons
     =============================================
     -->
-  <link rel="icon" type="image/png" href="../../img/STEVEN.png">
-  <!--  
+    <link rel="icon" type="image/png" href="../../img/STEVEN.png" />
+    <!--  
     Stylesheets
     =============================================
     
     -->
-  <!-- Default stylesheets-->
-  <link href="assets/lib/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
-  <!-- Template specific stylesheets-->
-  <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:400,700" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Volkhov:400i" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800" rel="stylesheet">
-  <link href="assets/lib/animate.css/animate.css" rel="stylesheet">
-  <link href="assets/lib/components-font-awesome/css/font-awesome.min.css" rel="stylesheet">
-  <link href="assets/lib/et-line-font/et-line-font.css" rel="stylesheet">
-  <link href="assets/lib/magnific-popup/dist/magnific-popup.css" rel="stylesheet">
-  <link href="assets/lib/simple-text-rotator/simpletextrotator.css" rel="stylesheet">
-  <!-- Main stylesheet and color file-->
-  <link href="assets/css/style.css" rel="stylesheet">
-  <link id="color-scheme" href="assets/css/colors/default.css" rel="stylesheet">
-</head>
+    <!-- Default stylesheets-->
+    <link
+      href="assets/lib/bootstrap/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <!-- Template specific stylesheets-->
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto+Condensed:400,700"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Volkhov:400i"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800"
+      rel="stylesheet"
+    />
+    <link href="assets/lib/animate.css/animate.css" rel="stylesheet" />
+    <link
+      href="assets/lib/components-font-awesome/css/font-awesome.min.css"
+      rel="stylesheet"
+    />
+    <link href="assets/lib/et-line-font/et-line-font.css" rel="stylesheet" />
+    <link
+      href="assets/lib/magnific-popup/dist/magnific-popup.css"
+      rel="stylesheet"
+    />
+    <link
+      href="assets/lib/simple-text-rotator/simpletextrotator.css"
+      rel="stylesheet"
+    />
+    <!-- Main stylesheet and color file-->
+    <link href="assets/css/style.css" rel="stylesheet" />
+    <link
+      id="color-scheme"
+      href="assets/css/colors/default.css"
+      rel="stylesheet"
+    />
+  </head>
 
-<body data-spy="scroll" data-target=".onpage-navigation" data-offset="60">
-  <main>
-    <div class="page-loader">
-      <div class="loader">Loading...</div>
-    </div>
-    <nav class="navbar navbar-custom navbar-fixed-top" role="navigation">
-      <div class="container">
-        <div class="navbar-header">
-          <button class="navbar-toggle" type="button" data-toggle="collapse" data-target="#custom-collapse"><span
-              class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span
-              class="icon-bar"></span></button><a class="navbar-brand" href="now.html">steven johnson's portfolio</a>
-        </div>
-        <div class="collapse navbar-collapse" id="custom-collapse">
-          <ul class="nav navbar-nav navbar-right">
-            <li class="dropdown"><a class="dropdown-toggle" href="#" data-toggle="dropdown">Home</a>
-              <ul class="dropdown-menu">
-                <li><a href="now.html#alt-features">Current Projects</a></li>
-                <li><a href="now.html#works">Previous Work</a></li>
-                <li><a href="resources.html">Resources</a></li>
-              </ul>
-            </li>
-          </ul>
-        </div>
+  <body data-spy="scroll" data-target=".onpage-navigation" data-offset="60">
+    <main>
+      <div class="page-loader">
+        <div class="loader">Loading...</div>
       </div>
-    </nav>
-    <div class="main">
-      <section class="module bg-dark-60 portfolio-page-header"
-        data-background="assets/images/portfolio/portfolio_header_bg.jpg">
+      <nav class="navbar navbar-custom navbar-fixed-top" role="navigation">
         <div class="container">
-          <div class="row">
-            <div class="col-sm-6 col-sm-offset-3">
-              <h2 class="module-title font-alt">Sharon Fellowship<br>Church of Dallas</h2>
-              <div class="module-subtitle font-serif">I've been going to SFCD since I was a child.</div>
-            </div>
+          <div class="navbar-header">
+            <button
+              class="navbar-toggle"
+              type="button"
+              data-toggle="collapse"
+              data-target="#custom-collapse"
+            >
+              <span class="sr-only">Toggle navigation</span
+              ><span class="icon-bar"></span><span class="icon-bar"></span
+              ><span class="icon-bar"></span></button
+            ><a class="navbar-brand" href="now.html"
+              >steven johnson's portfolio</a
+            >
+          </div>
+          <div class="collapse navbar-collapse" id="custom-collapse">
+            <ul class="nav navbar-nav navbar-right">
+              <li class="dropdown">
+                <a class="dropdown-toggle" href="#" data-toggle="dropdown"
+                  >Home</a
+                >
+                <ul class="dropdown-menu">
+                  <li><a href="now.html#alt-features">Current Projects</a></li>
+                  <li><a href="now.html#works">Previous Work</a></li>
+                  <li><a href="resources.html">Resources</a></li>
+                </ul>
+              </li>
+            </ul>
           </div>
         </div>
-      </section>
-      <section class="module">
-        <div class="container">
-          <div class="row">
-            <div class="col-sm-6 col-md-8 col-lg-8">
-              <div class="swiper">
-                <div class="swiper-wrapper">
-                  <div class="swiper-slide"><img class="center-block" src="assets/images/work-10.jpg"
-                      alt="Slider Image" /></div>
-                  <div class="swiper-slide"><img class="center-block" src="assets/images/work-6.jpg"
-                      alt="Slider Image" /></div>
-                  <div class="swiper-slide"><img class="center-block" src="assets/images/work-5.jpg"
-                      alt="Slider Image" /></div>
-                  <div class="swiper-slide"><img class="center-block" src="assets/images/work-4.jpg"
-                      alt="Slider Image" /></div>
+      </nav>
+      <div class="main">
+        <section
+          class="module bg-dark-60 portfolio-page-header"
+          data-background="assets/images/portfolio/portfolio_header_bg.jpg"
+        >
+          <div class="container">
+            <div class="row">
+              <div class="col-sm-6 col-sm-offset-3">
+                <h2 class="module-title font-alt">
+                  Sharon Fellowship<br />Church of Dallas
+                </h2>
+                <div class="module-subtitle font-serif">
+                  I've been going to SFCD since I was a child.
                 </div>
-                <!-- If we need navigation buttons -->
-                <div class="swiper-button-prev"></div>
-                <div class="swiper-button-next"></div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="module">
+          <div class="container">
+            <div class="row">
+              <div class="col-sm-6 col-md-8 col-lg-8">
+                <div class="swiper">
+                  <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                      <img
+                        class="center-block"
+                        src="assets/images/work-10.jpg"
+                        alt="Slider Image"
+                      />
+                    </div>
+                    <div class="swiper-slide">
+                      <img
+                        class="center-block"
+                        src="assets/images/work-6.jpg"
+                        alt="Slider Image"
+                      />
+                    </div>
+                    <div class="swiper-slide">
+                      <img
+                        class="center-block"
+                        src="assets/images/work-5.jpg"
+                        alt="Slider Image"
+                      />
+                    </div>
+                    <div class="swiper-slide">
+                      <img
+                        class="center-block"
+                        src="assets/images/work-4.jpg"
+                        alt="Slider Image"
+                      />
+                    </div>
+                  </div>
+                  <!-- If we need navigation buttons -->
+                  <div class="swiper-button-prev"></div>
+                  <div class="swiper-button-next"></div>
 
-                <!-- If we need scrollbar -->
-                <div class="swiper-scrollbar"></div>
+                  <!-- If we need scrollbar -->
+                  <div class="swiper-scrollbar"></div>
+                </div>
               </div>
-            </div>
-            <div class="col-sm-6 col-md-4 col-lg-4">
-              <div class="work-details">
-                <h5 class="work-details-title font-alt">Project Details</h5>
-                <p>I'm currently building a new website for <a href="https://sharondallas.org"
-                    target="_blank">sharondallas.org</a>.
-                </p>
-                <ul>
-                  <li><strong>Client: </strong><span class="font-serif"><a
-                        href="https://maps.app.goo.gl/N1z8pVMtPoCJgF5a7" target="_blank">Sharon Fellowship
-                        Church of Dallas</a></span>
-                  </li>
-                  <li><strong>Date: </strong><span class="font-serif">Ongoing</span>
-                  </li>
-                  <li><strong>Hardcode: </strong><span class="font-serif"><a href="https://sfcdallas.github.io/home"
-                        target="_blank">sfcdallas.github.io/home</a></span>
-                  </li>
-                  <li><strong>WordPress: </strong><span class="font-serif"><a href="https://sharondallas.org"
-                        target="_blank">sharondallas.org</a></span>
-                  </li>
-                </ul>
+              <div class="col-sm-6 col-md-4 col-lg-4">
+                <div class="work-details">
+                  <h5 class="work-details-title font-alt">Project Details</h5>
+                  <p>
+                    I'm currently building a new website for
+                    <a href="https://sharondallas.org" target="_blank"
+                      >sharondallas.org</a
+                    >.
+                  </p>
+                  <ul>
+                    <li>
+                      <strong>Client: </strong
+                      ><span class="font-serif"
+                        ><a
+                          href="https://maps.app.goo.gl/N1z8pVMtPoCJgF5a7"
+                          target="_blank"
+                          >Sharon Fellowship Church of Dallas</a
+                        ></span
+                      >
+                    </li>
+                    <li>
+                      <strong>Date: </strong
+                      ><span class="font-serif">Ongoing</span>
+                    </li>
+                    <li>
+                      <strong>Hardcode: </strong
+                      ><span class="font-serif"
+                        ><a
+                          href="https://sfcdallas.github.io/home"
+                          target="_blank"
+                          >sfcdallas.github.io/home</a
+                        ></span
+                      >
+                    </li>
+                    <li>
+                      <strong>WordPress: </strong
+                      ><span class="font-serif"
+                        ><a href="https://sharondallas.org" target="_blank"
+                          >sharondallas.org</a
+                        ></span
+                      >
+                    </li>
+                  </ul>
+                </div>
               </div>
             </div>
           </div>
-        </div>
-      </section>
-      <section class="module bg-dark-60 parallax-bg" data-background="assets/images/nasa-5.jpg">
-        <div class="container">
-          <div class="row multi-columns-row">
-            <div class="col-sm-6 col-md-3 col-lg-3">
-              <div class="count-item mb-sm-40">
-                <div class="count-icon"><span class="icon-picture"></span></div>
-                <h3 class="count-to font-alt" data-countto="12000"></h3>
-                <h5 class="count-title font-serif">Google Maps photo views</h5>
+        </section>
+        <section
+          class="module bg-dark-60 parallax-bg"
+          data-background="assets/images/nasa-5.jpg"
+        >
+          <div class="container">
+            <div class="row multi-columns-row">
+              <div class="col-sm-6 col-md-3 col-lg-3">
+                <div class="count-item mb-sm-40">
+                  <div class="count-icon">
+                    <span class="icon-picture"></span>
+                  </div>
+                  <h3 class="count-to font-alt" data-countto="12000"></h3>
+                  <h5 class="count-title font-serif">
+                    Google Maps photo views
+                  </h5>
+                </div>
               </div>
-            </div>
-            <div class="col-sm-6 col-md-3 col-lg-3">
-              <div class="count-item mb-sm-40">
-                <div class="count-icon"><span class="icon-pencil"></span></div>
-                <h3 class="count-to font-alt" data-countto="500"></h3>
-                <h5 class="count-title font-serif">Designs created</h5>
+              <div class="col-sm-6 col-md-3 col-lg-3">
+                <div class="count-item mb-sm-40">
+                  <div class="count-icon">
+                    <span class="icon-pencil"></span>
+                  </div>
+                  <h3 class="count-to font-alt" data-countto="500"></h3>
+                  <h5 class="count-title font-serif">Designs created</h5>
+                </div>
               </div>
-            </div>
-            <div class="col-sm-6 col-md-3 col-lg-3">
-              <div class="count-item mb-sm-40">
-                <div class="count-icon"><span class="icon-happy"></span></div>
-                <h3 class="count-to font-alt" data-countto="200"></h3>
-                <h5 class="count-title font-serif">Families impacted</h5>
+              <div class="col-sm-6 col-md-3 col-lg-3">
+                <div class="count-item mb-sm-40">
+                  <div class="count-icon"><span class="icon-happy"></span></div>
+                  <h3 class="count-to font-alt" data-countto="200"></h3>
+                  <h5 class="count-title font-serif">Families impacted</h5>
+                </div>
               </div>
-            </div>
-            <div class="col-sm-6 col-md-3 col-lg-3">
-              <div class="count-item mb-sm-40">
-                <div class="count-icon"><span class="icon-map-pin"></span></div>
-                <h3 class="count-to font-alt" data-countto="3"></h3>
-                <h5 class="count-title font-serif">Countries reached</h5>
+              <div class="col-sm-6 col-md-3 col-lg-3">
+                <div class="count-item mb-sm-40">
+                  <div class="count-icon">
+                    <span class="icon-map-pin"></span>
+                  </div>
+                  <h3 class="count-to font-alt" data-countto="3"></h3>
+                  <h5 class="count-title font-serif">Countries reached</h5>
+                </div>
               </div>
             </div>
           </div>
-        </div>
-      </section>
-      <section class="module">
-        <div class="container">
-          <div class="row">
-            <div class="col-sm-6">
-              <h5 class="font-alt mb-20">Skills for this project</h5><br>
-              <h6 class="font-alt"><span class="icon-tools-2"></span> Development
-              </h6>
-              <div class="progress">
-                <div class="progress-bar pb-light" aria-valuenow="60" role="progressbar" aria-valuemin="0"
-                  aria-valuemax="100"><span class="font-alt"></span></div>
+        </section>
+        <section class="module">
+          <div class="container">
+            <div class="row">
+              <div class="col-sm-6">
+                <h5 class="font-alt mb-20">Skills for this project</h5>
+                <br />
+                <h6 class="font-alt">
+                  <span class="icon-tools-2"></span> Development
+                </h6>
+                <div class="progress">
+                  <div
+                    class="progress-bar pb-light"
+                    aria-valuenow="60"
+                    role="progressbar"
+                    aria-valuemin="0"
+                    aria-valuemax="100"
+                  >
+                    <span class="font-alt"></span>
+                  </div>
+                </div>
+                <h6 class="font-alt">
+                  <span class="icon-strategy"></span> Branding
+                </h6>
+                <div class="progress">
+                  <div
+                    class="progress-bar pb-light"
+                    aria-valuenow="80"
+                    role="progressbar"
+                    aria-valuemin="0"
+                    aria-valuemax="100"
+                  >
+                    <span class="font-alt"></span>
+                  </div>
+                </div>
+                <h6 class="font-alt">
+                  <span class="icon-target"></span> Marketing
+                </h6>
+                <div class="progress">
+                  <div
+                    class="progress-bar pb-light"
+                    aria-valuenow="50"
+                    role="progressbar"
+                    aria-valuemin="0"
+                    aria-valuemax="100"
+                  >
+                    <span class="font-alt"></span>
+                  </div>
+                </div>
+                <h6 class="font-alt">
+                  <span class="icon-camera"></span> Photography
+                </h6>
+                <div class="progress">
+                  <div
+                    class="progress-bar pb-light"
+                    aria-valuenow="90"
+                    role="progressbar"
+                    aria-valuemin="0"
+                    aria-valuemax="100"
+                  >
+                    <span class="font-alt"></span>
+                  </div>
+                </div>
               </div>
-              <h6 class="font-alt"><span class="icon-strategy"></span> Branding
-              </h6>
-              <div class="progress">
-                <div class="progress-bar pb-light" aria-valuenow="80" role="progressbar" aria-valuemin="0"
-                  aria-valuemax="100"><span class="font-alt"></span></div>
+              <div class="col-sm-6 col-md-3 col-lg-3">
+                <div class="alt-features-item mt-20">
+                  <div class="alt-features-icon">
+                    <span class="icon-tools-2"></span>
+                  </div>
+                  <h3 class="alt-features-title font-alt">Development</h3>
+                  What started as only a hobby has now turned into my full time
+                  job.
+                </div>
+                <div class="alt-features-item">
+                  <div class="alt-features-icon">
+                    <span class="icon-pencil"></span>
+                  </div>
+                  <h3 class="alt-features-title font-alt">Branding</h3>
+                  I always love projects that require some creativity.
+                </div>
               </div>
-              <h6 class="font-alt"><span class="icon-target"></span> Marketing
-              </h6>
-              <div class="progress">
-                <div class="progress-bar pb-light" aria-valuenow="50" role="progressbar" aria-valuemin="0"
-                  aria-valuemax="100"><span class="font-alt"></span></div>
-              </div>
-              <h6 class="font-alt"><span class="icon-camera"></span> Photography
-              </h6>
-              <div class="progress">
-                <div class="progress-bar pb-light" aria-valuenow="90" role="progressbar" aria-valuemin="0"
-                  aria-valuemax="100"><span class="font-alt"></span></div>
-              </div>
-            </div>
-            <div class="col-sm-6 col-md-3 col-lg-3">
-              <div class="alt-features-item mt-20">
-                <div class="alt-features-icon"><span class="icon-tools-2"></span></div>
-                <h3 class="alt-features-title font-alt">Development</h3>What started as only a hobby has now turned into
-                my full time job.
-              </div>
-              <div class="alt-features-item">
-                <div class="alt-features-icon"><span class="icon-pencil"></span></div>
-                <h3 class="alt-features-title font-alt">Branding</h3>I always love projects that require some
-                creativity.
-              </div>
-            </div>
-            <div class="col-sm-6 col-md-3 col-lg-3">
-              <div class="alt-features-item mt-20">
-                <div class="alt-features-icon"><span class="icon-target"></span></div>
-                <h3 class="alt-features-title font-alt">Marketing</h3>Our message was centered around loving our
-                neighbor and our neighborhood.
-              </div>
-              <div class="alt-features-item">
-                <div class="alt-features-icon"><span class="icon-camera"></span></div>
-                <h3 class="alt-features-title font-alt">Photography</h3>Pictures were the cornerstone of the website.
+              <div class="col-sm-6 col-md-3 col-lg-3">
+                <div class="alt-features-item mt-20">
+                  <div class="alt-features-icon">
+                    <span class="icon-target"></span>
+                  </div>
+                  <h3 class="alt-features-title font-alt">Marketing</h3>
+                  Our message was centered around loving our neighbor and our
+                  neighborhood.
+                </div>
+                <div class="alt-features-item">
+                  <div class="alt-features-icon">
+                    <span class="icon-camera"></span>
+                  </div>
+                  <h3 class="alt-features-title font-alt">Photography</h3>
+                  Pictures were the cornerstone of the website.
+                </div>
               </div>
             </div>
           </div>
-        </div>
-      </section>
-      <hr class="divider-w">
-      <section class="module">
-        <div class="container">
-          <div class="row">
-            <div class="col-sm-6 col-sm-offset-3">
-              <h2 class="module-title font-alt">Related Projects</h2>
+        </section>
+        <hr class="divider-w" />
+        <section class="module">
+          <div class="container">
+            <div class="row">
+              <div class="col-sm-6 col-sm-offset-3">
+                <h2 class="module-title font-alt">Related Projects</h2>
+              </div>
             </div>
+            <ul
+              class="works-grid works-grid-gut works-grid-3 works-hover-w"
+              id="works-grid"
+            >
+              <li class="work-item illustration webdesign">
+                <a href="ustmrw.html">
+                  <div class="work-image">
+                    <img
+                      src="assets/images/portfolio/grid-portfolio1.jpg"
+                      alt="Portfolio Item"
+                    />
+                  </div>
+                  <div class="work-caption font-alt">
+                    <h3 class="work-title">US Tomorrow</h3>
+                    <div class="work-descr">Design</div>
+                  </div>
+                </a>
+              </li>
+              <li class="work-item marketing webdesign">
+                <a href="https://spj98.github.io/404">
+                  <div class="work-image">
+                    <img
+                      src="assets/images/portfolio/grid-portfolio7.jpg"
+                      alt="Portfolio Item"
+                    />
+                  </div>
+                  <div class="work-caption font-alt">
+                    <h3 class="work-title">404</h3>
+                    <div class="work-descr">Web Design</div>
+                  </div>
+                </a>
+              </li>
+              <li class="work-item illustration webdesign">
+                <a href="art.html">
+                  <div class="work-image">
+                    <img
+                      src="assets/images/portfolio/grid-portfolio5.jpg"
+                      alt="Portfolio Item"
+                    />
+                  </div>
+                  <div class="work-caption font-alt">
+                    <h3 class="work-title">Sky</h3>
+                    <div class="work-descr">Illustration</div>
+                  </div>
+                </a>
+              </li>
+            </ul>
           </div>
-          <ul class="works-grid works-grid-gut works-grid-3 works-hover-w" id="works-grid">
-            <li class="work-item illustration webdesign"><a href="ustmrw.html">
-                <div class="work-image"><img src="assets/images/portfolio/grid-portfolio1.jpg" alt="Portfolio Item" />
+        </section>
+        <div class="module-small bg-dark">
+          <div class="container">
+            <div class="row">
+              <div class="col-sm-3">
+                <div class="widget">
+                  <h5 class="widget-title font-alt">Work together</h5>
+                  <p>Thank you for stopping by! God & Darwin bless!</p>
+                  <p>Phone: <a href="tel:+19729000943">+1 972 900 0943</a></p>
+                  <p>
+                    Email:
+                    <a href="mailto:stevenj419@gmail.com"
+                      >stevenj419@gmail.com</a
+                    >
+                  </p>
                 </div>
-                <div class="work-caption font-alt">
-                  <h3 class="work-title">US Tomorrow</h3>
-                  <div class="work-descr">Design</div>
-                </div>
-              </a></li>
-            <li class="work-item marketing webdesign"><a href="https://spj98.github.io/404">
-                <div class="work-image"><img src="assets/images/portfolio/grid-portfolio3.jpg" alt="Portfolio Item" />
-                </div>
-                <div class="work-caption font-alt">
-                  <h3 class="work-title">404</h3>
-                  <div class="work-descr">Web Design</div>
-                </div>
-              </a></li>
-            <li class="work-item illustration webdesign"><a href="art.html">
-                <div class="work-image"><img src="assets/images/portfolio/grid-portfolio5.jpg" alt="Portfolio Item" />
-                </div>
-                <div class="work-caption font-alt">
-                  <h3 class="work-title">Artwork</h3>
-                  <div class="work-descr">Illustration</div>
-                </div>
-              </a></li>
-          </ul>
-        </div>
-      </section>
-      <div class="module-small bg-dark">
-        <div class="container">
-          <div class="row">
-            <div class="col-sm-3">
-              <div class="widget">
-                <h5 class="widget-title font-alt">Work together</h5>
-                <p>Thank you for stopping by! God & Darwin bless!</p>
-                <p>Phone: <a href="tel:+19729000943">+1 972 900 0943</a></p>
-                <p>Email: <a href="mailto:stevenj419@gmail.com">stevenj419@gmail.com</a></p>
               </div>
-            </div>
-            <div class="col-sm-6">
-              <div class="widget">
-                <h5 class="widget-title font-alt">Map</h5>
-                <ul class="widget-posts">
-                  <li class="clearfix">
-                    <div class="widget-posts-image"><a href="../../index.html"><img src="assets/images/rp-1.png"
-                          alt="Post Thumbnail" /></a></div>
-                    <div class="widget-posts-body">
-                      <div class="widget-posts-title"><a href="../../index.html">Welcome page</a></div>
-                      <div class="widget-posts-meta">Back to Page 1</div>
-                    </div>
-                  </li>
-                  <li class="clearfix">
-                    <div class="widget-posts-image"><a href="../nowhere/tools/map.html"><img
-                          src="assets/images/rp-2.png" alt="Post Thumbnail" /></a></div>
-                    <div class="widget-posts-body">
-                      <div class="widget-posts-title"><a href="../nowhere/tools/">Map</a></div>
-                      <div class="widget-posts-meta">AI is dropping the A</div>
-                    </div>
-                  </li>
-                </ul>
-              </div>
-            </div>
-            <div class="col-sm-3">
-              <div class="widget">
-                <h5 class="widget-title font-alt">Popular Reads</h5>
-                <ul class="widget-posts">
-                  <li class="clearfix">
-                    <div class="widget-posts-image"><a href="https://ustmrw.github.io/-/home"><img
-                          src="assets/images/rp-3.png" alt="Post Thumbnail" /></a></div>
-                    <div class="widget-posts-body">
-                      <div class="widget-posts-title"><a href="https://ustmrw.github.io/-/home">US
-                          Tomorrow</a></div>
-                      <div class="widget-posts-meta">23 may</div>
-                    </div>
-                  </li>
-                  <li class="clearfix">
-                    <div class="widget-posts-image"><a href="https://sharondallas.org"><img src="assets/images/rp-4.png"
-                          alt="Post Thumbnail" /></a></div>
-                    <div class="widget-posts-body">
-                      <div class="widget-posts-title"><a href="https://sharondallas.org">SFCD Website</a>
+              <div class="col-sm-6">
+                <div class="widget">
+                  <h5 class="widget-title font-alt">Map</h5>
+                  <ul class="widget-posts">
+                    <li class="clearfix">
+                      <div class="widget-posts-image">
+                        <a href="../../index.html"
+                          ><img
+                            src="assets/images/rp-1.png"
+                            alt="Post Thumbnail"
+                        /></a>
                       </div>
-                      <div class="widget-posts-meta">24 nov</div>
-                    </div>
-                  </li>
-                </ul>
+                      <div class="widget-posts-body">
+                        <div class="widget-posts-title">
+                          <a href="../../index.html">Welcome page</a>
+                        </div>
+                        <div class="widget-posts-meta">Back to Page 1</div>
+                      </div>
+                    </li>
+                    <li class="clearfix">
+                      <div class="widget-posts-image">
+                        <a href="../nowhere/tools/map.html"
+                          ><img
+                            src="assets/images/rp-2.png"
+                            alt="Post Thumbnail"
+                        /></a>
+                      </div>
+                      <div class="widget-posts-body">
+                        <div class="widget-posts-title">
+                          <a href="../nowhere/tools/">Map</a>
+                        </div>
+                        <div class="widget-posts-meta">
+                          AI is dropping the A
+                        </div>
+                      </div>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div class="col-sm-3">
+                <div class="widget">
+                  <h5 class="widget-title font-alt">Popular Reads</h5>
+                  <ul class="widget-posts">
+                    <li class="clearfix">
+                      <div class="widget-posts-image">
+                        <a href="https://ustmrw.github.io/-/home"
+                          ><img
+                            src="assets/images/rp-3.png"
+                            alt="Post Thumbnail"
+                        /></a>
+                      </div>
+                      <div class="widget-posts-body">
+                        <div class="widget-posts-title">
+                          <a href="https://ustmrw.github.io/-/home"
+                            >US Tomorrow</a
+                          >
+                        </div>
+                        <div class="widget-posts-meta">23 may</div>
+                      </div>
+                    </li>
+                    <li class="clearfix">
+                      <div class="widget-posts-image">
+                        <a href="https://sharondallas.org"
+                          ><img
+                            src="assets/images/rp-4.png"
+                            alt="Post Thumbnail"
+                        /></a>
+                      </div>
+                      <div class="widget-posts-body">
+                        <div class="widget-posts-title">
+                          <a href="https://sharondallas.org">SFCD Website</a>
+                        </div>
+                        <div class="widget-posts-meta">24 nov</div>
+                      </div>
+                    </li>
+                  </ul>
+                </div>
               </div>
             </div>
           </div>
         </div>
+        <hr class="divider-d" />
+        <footer class="footer bg-dark">
+          <div class="container">
+            <div class="row">
+              <div class="col-sm-6">
+                <p class="copyright font-alt">
+                  &copy; 2024&nbsp;<a href="https://flowcv.me/steven-johnson"
+                    >SPJ</a
+                  >, All Rights Reserved
+                </p>
+              </div>
+              <div class="col-sm-6">
+                <div class="footer-social-links">
+                  <a href="https://github.com/spj98"
+                    ><i class="fa fa-github"></i
+                  ></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </footer>
       </div>
-      <hr class="divider-d">
-      <footer class="footer bg-dark">
-        <div class="container">
-          <div class="row">
-            <div class="col-sm-6">
-              <p class="copyright font-alt">&copy; 2024&nbsp;<a href="https://flowcv.me/steven-johnson">SPJ</a>, All
-                Rights Reserved</p>
-            </div>
-            <div class="col-sm-6">
-              <div class="footer-social-links"><a href="https://github.com/spj98"><i class="fa fa-github"></i></a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </footer>
-    </div>
-    <div class="scroll-up"><a href="#totop"><i class="fa fa-angle-double-up"></i></a></div>
-  </main>
-  <!--  
+      <div class="scroll-up">
+        <a href="#totop"><i class="fa fa-angle-double-up"></i></a>
+      </div>
+    </main>
+    <!--  
     JavaScripts
     =============================================
     -->
-  <script src="assets/lib/jquery/dist/jquery.js"></script>
-  <script src="assets/lib/bootstrap/dist/js/bootstrap.min.js"></script>
-  <script src="assets/lib/wow/dist/wow.js"></script>
-  <script src="assets/lib/jquery.mb.ytplayer/dist/jquery.mb.YTPlayer.js"></script>
-  <script src="assets/lib/isotope/dist/isotope.pkgd.js"></script>
-  <script src="assets/lib/imagesloaded/imagesloaded.pkgd.js"></script>
-  <script src="assets/lib/smoothscroll.js"></script>
-  <script src="assets/lib/magnific-popup/dist/jquery.magnific-popup.js"></script>
-  <script src="assets/lib/simple-text-rotator/jquery.simple-text-rotator.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
-  <script src="assets/js/plugins.js"></script>
-  <script src="assets/js/main.js"></script>
-</body>
-
+    <script src="assets/lib/jquery/dist/jquery.js"></script>
+    <script src="assets/lib/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="assets/lib/wow/dist/wow.js"></script>
+    <script src="assets/lib/jquery.mb.ytplayer/dist/jquery.mb.YTPlayer.js"></script>
+    <script src="assets/lib/isotope/dist/isotope.pkgd.js"></script>
+    <script src="assets/lib/imagesloaded/imagesloaded.pkgd.js"></script>
+    <script src="assets/lib/smoothscroll.js"></script>
+    <script src="assets/lib/magnific-popup/dist/jquery.magnific-popup.js"></script>
+    <script src="assets/lib/simple-text-rotator/jquery.simple-text-rotator.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+    <script src="assets/js/plugins.js"></script>
+    <script src="assets/js/main.js"></script>
+  </body>
 </html>
